@@ -6,5 +6,5 @@ export function puntoB(){
         edad: 20,
         matriculaActiva: "Activo"
     }
-    console.log(`Estudiante: ${estudiante.nombre}\nEdad: ${edad}\nMatricula: ${matriculaActiva}`);
+    console.log(`Estudiante: ${estudiante.nombre}\nEdad: ${estudiante.edad}\nMatricula: ${estudiante.matriculaActiva}`);
 }
